@@ -223,7 +223,7 @@ textarea {
 .batana{
 
   font-weight: 900;
-  color: pink;
+  color: rgb(243, 87, 113);
             font-weight: bold;
             font-size: 50px;
 }
@@ -250,11 +250,11 @@ display: flex;
   display: ;
       justify-content: space-between;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 700;
   text-decoration: underline;
   color: blue;
   line-height: 30px;
-  padding: 70px;
+  padding: 0px;
   margin-top: 0px;
   /* background-color: rgb(252, 240, 242); */
 }
@@ -264,7 +264,7 @@ display: flex;
 .TITLE{
   text-align: center;
   font-size: 50px;
-  margin-top: 200px;
+  margin-top: 5px;
   font-style: italic;
   padding-top: 100px;
 
@@ -288,9 +288,10 @@ display: flex;
   line-height: 30px;
   padding: 20px 50px 20px 50px;
   margin-top: 0px;
-  border-top-left-radius: 140px;
-  border-top-right-radius: 140px;
-  background-color: rgb(216, 175, 200); }
+  border-top-left-radius: 170px;
+  border-top-right-radius: 170px;
+  background-color: rgb(216, 175, 200);
+ }
 
   .lekha2 {
     margin-right: 10px; /* Adds spacing between images */
@@ -298,9 +299,9 @@ display: flex;
     line-height: 30px;
     padding: 20px 50px 100px 50px;
     margin-top: 0px;
-    border-top-left-radius: 140px;
-    border-top-right-radius: 140px;
-    background-color: rgb(216, 249, 249); 
+    border-top-left-radius: 170px;
+    border-top-right-radius: 170px;
+    background-color: rgb(157, 242, 242); 
     
    
   }
@@ -308,16 +309,17 @@ display: flex;
     margin-right: 10px; /* Adds spacing between images */
     text-align: center;
     line-height: 30px;
-    padding: 20px 50px 20px 50px;
+    padding: 0px 50px 20px 50px;
     margin-top: 0px;
-    border-top-left-radius: 140px;
-    border-top-right-radius: 140px;
+    border-top-left-radius: 170px;
+    border-top-right-radius: 170px;
     background-color: rgb(203, 207, 207); 
+    margin: 10px;
     
    
   }
   .hotdealsbg{
-    padding: 30px 30px 30px 150px;
+    padding:100px;
   display: flex;
   justify-content: space-between;
   align-items:normal;
@@ -328,13 +330,14 @@ display: flex;
 .instapics{
   display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
 }
 .image{
   .image {
     margin: 10px; /* Adds spacing between images */
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 20px;
+    box-shadow: #181818;
 }
 }
 .search-container {
@@ -369,3 +372,8 @@ display: flex;
       background-position: center;
   }
    */
+   .padholder{
+    color: black;
+    font-size: 30px;
+    margin: 0 10px
+   }
